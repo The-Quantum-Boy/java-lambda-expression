@@ -6,6 +6,7 @@ public class Demo1 {
     public static void main(String[] args) {
 
 //        Predicate -> used to check certain condition
+        //Predicate take the argument as type -> and return boolean value
         //ex1
         Predicate<Integer> p=i->(i>10);
         System.out.println( p.test(9));
